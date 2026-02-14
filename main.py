@@ -4,9 +4,9 @@ import datetime
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 ## ------------------- Your Telegram API details -------------------
-API_ID = 34219564    
-API_HASH = "91e19ed97d887d47feabd52e5f1be814"
-SESSION_STRING = ""
+API_ID = 30244162    
+API_HASH = "e1472f0be4635de52c95a2e49a3bc5d6"
+SESSION_STRING = "1BJWap1wBu50yNJ8LD1Kj4ETVErVSkrjSW9B54R1OUrGDpDMBvUlEkVqOs2J2FXQaWKOEwUxVJS0lBwj61SQNYsEQNtgyswbaCYkaWOTuggjND39s3S-4Mygr63hijpEbmWqJu3i8tY6ve7sH-GgTMHsF2iwp7GouhbNyMhHenJ61lvDXTxnzN4WfAnTTD-72gL_EcH757xxCT3OwhMoNraK1Ex9I4djpxjDJABkhl9VCQjK5JTRDjo_QccVsrS4dm4MIo4sI5OlrV5aFna8SPTdAhwIZxrTIQBxhY_LwTuW0uS4tD0TXePLzZRdEWnnmGbEw5_HZXAJp8s08rFndr4jAuok1Nds="
 # ----------------------------------------------------------------------------------------------------------------
 
 client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
